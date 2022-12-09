@@ -1,0 +1,8 @@
+The system provide the functions as follow
+    1: Insert
+    2: Delete
+    3: Revise
+    4: Search
+    5: Quit
+    6: Display all the records
+
