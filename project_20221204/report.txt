@@ -1,0 +1,3 @@
+首先，我使用pandas将excel文件导入Jupyter Notebook，并转换为DataFrame格式。数据共包含9个表格，其中CONTENTS为其余8个表格的说明性文件，
+Table1 - Table6 为接下来需要进行分析的数据，ANNEX和NOTES是对这6个表格中字段数据的补充。再以下的分析中，我主要使用了Table1 - Table6的数据，
+ANNEX的数据对上述数据进行了一些补充。
