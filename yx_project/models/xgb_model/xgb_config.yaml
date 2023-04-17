@@ -1,0 +1,17 @@
+model:
+  classification:
+    learning_rate: 0.3
+    gamma: 0
+    max_depth: 6
+    min_child_weight: 1
+    scale_pos_weight: 1
+    seed: 42
+
+  regression:
+    objective: reg:squarederror
+    learning_rate: 0.3
+    eval_metric: rmse
+    max_depth: 7
+
+path:
+  model_path: xgb_model.joblib
