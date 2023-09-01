@@ -1,0 +1,9 @@
+project_root: "output_final"
+raw_data_dir: "input_dir"
+sentiment_model_dir: "data/sentiment_model/"
+
+drop_duplicates: true
+n_gram: 1
+n_components: 10
+top_n: 10
+dpi: 300
