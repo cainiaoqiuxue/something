@@ -1,0 +1,11 @@
+data_dir: "../data"
+
+qinghai:
+  file_prefix: ["青海", "陕西"]
+  period: [0, 5, 7, 12, 14]
+  fix: [[11 ,200], [12, 200]]
+
+sichuan:
+  file_prefix: ["四川"]
+  period: [0, 3, 6, 13, 28]
+  fix: [[18, 150], [20, 100], [21, 100]]
