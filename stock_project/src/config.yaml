@@ -1,0 +1,32 @@
+model:
+  input_size: 3
+  hidden_size: 32
+  output_size: 2
+  num_layers: 2
+  checkpoints: "../checkpoints"
+  epoch: 3
+  batch_size: 128
+  log_step: 100
+  lr: 1e-3
+
+data:
+  train:
+    path: "../data/train_data.pkl"
+    add_feature_path: "../data/train_data_add_feature.pkl"
+
+  test:
+    path: "../data/test_data.pkl"
+    add_feature_path: "../data/test_data_add_feature.pkl"
+
+  sentiment_feature: "../data/twitter_feature.pkl"
+
+process:
+  window: 5
+  all_col: ['Date', 'Open', 'High', 'Low', 'Close','Adj Close', 'Volume']
+  feature_col: ['Open', 'High', 'Low']
+  label_col: "Close"
+  date_col: "Date"
+  split_date: "2017"
+
+sentiment_model: "E:/stock_project/sentiment_model"
+seed: 42
