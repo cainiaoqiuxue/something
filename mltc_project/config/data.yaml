@@ -1,0 +1,23 @@
+data:
+  root_dir: "../data"
+  name: "MI_tc.xlsx"
+  stopwords: "stopwords.txt"
+
+cbow:
+  vector_size: 100
+  window: 5
+  min_count: 1
+  epochs: 10
+  sg: 0
+
+tfidf:
+  encoding: "utf-8"
+  input: "content"
+
+cluster:
+  agg:
+    distance_threshold: 30
+  kmeans:
+    n_clusters: 10
+    n_init: 10
+    random_state: 42
