@@ -1,0 +1,1017 @@
+2022-03-02 12:17:41.062841
+lr
+{'solver': 'lbfgs', 'class_weight': None}
+auc:0.40909090909090906
+              precision    recall  f1-score   support
+
+        正常用户       0.87      0.91      0.89        22
+        违约用户       0.00      0.00      0.00         3
+
+    accuracy                           0.80        25
+   macro avg       0.43      0.45      0.44        25
+weighted avg       0.77      0.80      0.78        25
+2022-03-04 18:59:16.097914
+xgb_try
+{'n_estimators': 20}
+[[54565  9474]
+ [ 9279  6682]]
+auc:0.7296557645484889
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.85      0.85     64039
+        违约用户       0.41      0.42      0.42     15961
+
+    accuracy                           0.77     80000
+   macro avg       0.63      0.64      0.63     80000
+weighted avg       0.77      0.77      0.77     80000
+
+2022-03-04 18:59:55.229983
+xgb_try
+{'n_estimators': 40}
+[[54177  9862]
+ [ 9031  6930]]
+auc:0.7329154291481769
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:00:48.578897
+xgb_try
+{'n_estimators': 60}
+[[54063  9976]
+ [ 8965  6996]]
+auc:0.7340820514053036
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:02:00.795511
+xgb_try
+{'n_estimators': 80}
+[[53987 10052]
+ [ 8946  7015]]
+auc:0.7338980321044986
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:03:30.098014
+xgb_try
+{'n_estimators': 100}
+[[53980 10059]
+ [ 8896  7065]]
+auc:0.7338694558953892
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:05:40.039631
+xgb_try
+{'n_estimators': 150}
+[[53880 10159]
+ [ 8916  7045]]
+auc:0.7327381369991883
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 19:08:27.542336
+xgb_try
+{'n_estimators': 200}
+[[53855 10184]
+ [ 8896  7065]]
+auc:0.7313188170521899
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 19:12:01.394323
+xgb_try
+{'n_estimators': 250}
+[[53833 10206]
+ [ 8892  7069]]
+auc:0.7307961469022857
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 19:16:17.259131
+xgb_try
+{'n_estimators': 300}
+[[53771 10268]
+ [ 8924  7037]]
+auc:0.7299562283426569
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 19:17:50.187636
+xgb_try
+{'n_estimators': 10}
+[[54312  9727]
+ [ 9361  6600]]
+auc:0.7222464246521101
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.85      0.85     64039
+        违约用户       0.40      0.41      0.41     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.63      0.63     80000
+weighted avg       0.76      0.76      0.76     80000
+
+2022-03-04 19:18:16.114643
+xgb_try
+{'n_estimators': 30}
+[[54304  9735]
+ [ 9133  6828]]
+auc:0.7317679111803932
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:19:00.719656
+xgb_try
+{'n_estimators': 50}
+[[54121  9918]
+ [ 8999  6962]]
+auc:0.7334641229855078
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:20:02.611862
+xgb_try
+{'n_estimators': 70}
+[[54060  9979]
+ [ 8938  7023]]
+auc:0.7342096906971922
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:21:19.033953
+xgb_try
+{'n_estimators': 90}
+[[53992 10047]
+ [ 8931  7030]]
+auc:0.7340564058511198
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:22:53.604126
+xgb_try
+{'n_estimators': 110}
+[[53952 10087]
+ [ 8929  7032]]
+auc:0.7334433623453757
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:24:34.069857
+xgb_try
+{'n_estimators': 120}
+[[53937 10102]
+ [ 8920  7041]]
+auc:0.7333994705169947
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:26:23.413990
+xgb_try
+{'n_estimators': 130}
+[[53947 10092]
+ [ 8924  7037]]
+auc:0.7331560197258131
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:28:21.853971
+xgb_try
+{'n_estimators': 140}
+[[53919 10120]
+ [ 8913  7048]]
+auc:0.7328663990124455
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:30:37.595905
+xgb_try
+{'n_estimators': 160}
+[[53872 10167]
+ [ 8900  7061]]
+auc:0.7323572912741261
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:33:01.157018
+xgb_try
+{'n_estimators': 170}
+[[53866 10173]
+ [ 8901  7060]]
+auc:0.7323662813552843
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 19:35:36.219518
+xgb_try
+{'n_estimators': 180}
+[[53881 10158]
+ [ 8886  7075]]
+auc:0.7321503178668753
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 19:38:22.440414
+xgb_try
+{'n_estimators': 190}
+[[53886 10153]
+ [ 8891  7070]]
+auc:0.7317825130915134
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:10:49.637799
+xgb_try
+{'n_estimators': 70, 'max_depth': 1}
+[[54631  9408]
+ [ 9646  6315]]
+auc:0.7193629067504081
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.85      0.85     64039
+        违约用户       0.40      0.40      0.40     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.62      0.63     80000
+weighted avg       0.76      0.76      0.76     80000
+
+2022-03-04 20:11:13.148340
+xgb_try
+{'n_estimators': 70, 'max_depth': 2}
+[[54437  9602]
+ [ 9350  6611]]
+auc:0.7276725902137597
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.85      0.85     64039
+        违约用户       0.41      0.41      0.41     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.63      0.63     80000
+weighted avg       0.76      0.76      0.76     80000
+
+2022-03-04 20:11:46.853415
+xgb_try
+{'n_estimators': 70, 'max_depth': 3}
+[[54153  9886]
+ [ 9106  6855]]
+auc:0.7314573816064891
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 20:12:29.741731
+xgb_try
+{'n_estimators': 70, 'max_depth': 4}
+[[54224  9815]
+ [ 9092  6869]]
+auc:0.7327119875934649
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:13:23.012571
+xgb_try
+{'n_estimators': 70, 'max_depth': 5}
+[[54078  9961]
+ [ 9016  6945]]
+auc:0.733872868878099
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:14:24.493424
+xgb_try
+{'n_estimators': 70, 'max_depth': 6}
+[[54060  9979]
+ [ 8938  7023]]
+auc:0.7342096906971922
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:15:35.229060
+xgb_try
+{'n_estimators': 70, 'max_depth': 7}
+[[54067  9972]
+ [ 8972  6989]]
+auc:0.7322083444430559
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:16:56.496531
+xgb_try
+{'n_estimators': 70, 'max_depth': 8}
+[[53941 10098]
+ [ 9061  6900]]
+auc:0.7291509556910716
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.63     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 20:18:28.695889
+xgb_try
+{'n_estimators': 70, 'max_depth': 9}
+[[53824 10215]
+ [ 8955  7006]]
+auc:0.7283321690563502
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 20:20:12.570161
+xgb_try
+{'n_estimators': 70, 'max_depth': 10}
+[[53674 10365]
+ [ 9020  6941]]
+auc:0.7244825720829409
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.40      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.63     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 20:22:08.885908
+xgb_try
+{'n_estimators': 70, 'max_depth': 11}
+[[53732 10307]
+ [ 9177  6784]]
+auc:0.719800404466383
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.84      0.85     64039
+        违约用户       0.40      0.43      0.41     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.63      0.63     80000
+weighted avg       0.76      0.76      0.76     80000
+
+2022-03-04 20:24:12.319428
+xgb_try
+{'n_estimators': 70, 'max_depth': 12}
+[[53704 10335]
+ [ 9220  6741]]
+auc:0.7172199654950921
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.84      0.85     64039
+        违约用户       0.39      0.42      0.41     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.62      0.63      0.63     80000
+weighted avg       0.76      0.76      0.76     80000
+
+2022-03-04 20:26:22.526629
+xgb_try
+{'n_estimators': 70, 'max_depth': 13}
+[[53681 10358]
+ [ 9357  6604]]
+auc:0.7125159341459542
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.84      0.84     64039
+        违约用户       0.39      0.41      0.40     15961
+
+    accuracy                           0.75     80000
+   macro avg       0.62      0.63      0.62     80000
+weighted avg       0.76      0.75      0.76     80000
+
+2022-03-04 20:28:45.071320
+xgb_try
+{'n_estimators': 70, 'max_depth': 14}
+[[53856 10183]
+ [ 9508  6453]]
+auc:0.709974703140432
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.84      0.85     64039
+        违约用户       0.39      0.40      0.40     15961
+
+    accuracy                           0.75     80000
+   macro avg       0.62      0.62      0.62     80000
+weighted avg       0.76      0.75      0.76     80000
+
+2022-03-04 20:31:17.375705
+xgb_try
+{'n_estimators': 70, 'max_depth': 15}
+[[54306  9733]
+ [ 9738  6223]]
+auc:0.7053791114044704
+              precision    recall  f1-score   support
+
+        正常用户       0.85      0.85      0.85     64039
+        违约用户       0.39      0.39      0.39     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.62      0.62      0.62     80000
+weighted avg       0.76      0.76      0.76     80000
+
+2022-03-04 20:44:56.377635
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.0}
+[[54072  9967]
+ [ 8971  6990]]
+auc:0.7334901647724558
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:46:02.547548
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.1}
+[[54073  9966]
+ [ 8974  6987]]
+auc:0.7334825165017567
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:47:06.096823
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.2}
+[[54084  9955]
+ [ 9024  6937]]
+auc:0.7330647800388312
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:48:11.231190
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.30000000000000004}
+[[54147  9892]
+ [ 8980  6981]]
+auc:0.7335546709772696
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:49:16.768367
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.4}
+[[54173  9866]
+ [ 9020  6941]]
+auc:0.733268238714712
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:50:26.017259
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.5}
+[[54049  9990]
+ [ 9020  6941]]
+auc:0.7327867102443004
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.76     80000
+
+2022-03-04 20:51:32.337933
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.6000000000000001}
+[[54118  9921]
+ [ 9003  6958]]
+auc:0.7331432830437417
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:52:39.126887
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.7000000000000001}
+[[54062  9977]
+ [ 8983  6978]]
+auc:0.7332955112691097
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:53:46.032038
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.8}
+[[54101  9938]
+ [ 8978  6983]]
+auc:0.7340742226285677
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 20:54:47.279439
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 0.9}
+[[54143  9896]
+ [ 9010  6951]]
+auc:0.7341611541402989
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:30:30.154739
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1}
+[[54060  9979]
+ [ 8938  7023]]
+auc:0.7342096906971922
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:31:29.925672
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 2}
+[[54075  9964]
+ [ 8955  7006]]
+auc:0.7341487090072734
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:32:29.592581
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 3}
+[[54104  9935]
+ [ 9004  6957]]
+auc:0.7339752627619777
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:33:29.613915
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 4}
+[[54126  9913]
+ [ 9030  6931]]
+auc:0.733826876526892
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:34:31.251378
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 5}
+[[54099  9940]
+ [ 9008  6953]]
+auc:0.7335974499296775
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:35:31.079905
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 6}
+[[54066  9973]
+ [ 9001  6960]]
+auc:0.7335391640900832
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:36:32.000848
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 7}
+[[54025 10014]
+ [ 8973  6988]]
+auc:0.7332454905514683
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:37:32.013698
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 8}
+[[54139  9900]
+ [ 9018  6943]]
+auc:0.7338972459982616
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.43      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:38:32.232301
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 9}
+[[54066  9973]
+ [ 8966  6995]]
+auc:0.7343423303487278
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-04 21:39:32.063570
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 10}
+[[54064  9975]
+ [ 8985  6976]]
+auc:0.7335605714212203
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:29:18.638404
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.1}
+[[54018 10021]
+ [ 8933  7028]]
+auc:0.7337727031920479
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:30:18.634763
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.2}
+[[54038 10001]
+ [ 8955  7006]]
+auc:0.7341183228460321
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:31:18.109672
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.3}
+[[54065  9974]
+ [ 8969  6992]]
+auc:0.7346454670019364
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:32:17.915464
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.4}
+[[54059  9980]
+ [ 8939  7022]]
+auc:0.7350212492636149
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:33:17.267326
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.5}
+[[54110  9929]
+ [ 8933  7028]]
+auc:0.7344122326567768
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:34:18.337459
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.6}
+[[54125  9914]
+ [ 8944  7017]]
+auc:0.734365386203834
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:35:19.079548
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.7}
+[[54126  9913]
+ [ 8939  7022]]
+auc:0.7343625636568604
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.85      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:36:18.663382
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.8}
+[[54083  9956]
+ [ 8957  7004]]
+auc:0.7335472330523589
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.64      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:37:18.599786
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.9}
+[[54110  9929]
+ [ 8993  6968]]
+auc:0.7336691333284597
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.42     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
+2022-03-05 11:38:18.544627
+xgb_try
+{'n_estimators': 70, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 1}
+[[54022 10017]
+ [ 8951  7010]]
+auc:0.7342380678115668
+              precision    recall  f1-score   support
+
+        正常用户       0.86      0.84      0.85     64039
+        违约用户       0.41      0.44      0.43     15961
+
+    accuracy                           0.76     80000
+   macro avg       0.63      0.64      0.64     80000
+weighted avg       0.77      0.76      0.77     80000
+
