@@ -1,0 +1,1 @@
+from .xinhua import XinHuaSpider
